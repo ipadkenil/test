@@ -21,12 +21,11 @@ print(x >= 5)	# True
 if 架構，在Python裡，縮排的觀念要先建立起來
 '''
 anser = input('今天有下雨嗎？')
-if anser == '有' :
-	print('出門前記得帶傘！')
-elif anser == '沒有' :
+if anser == '有' :								# 判斷 'anser == 有' ，是否為True
+	print('出門前記得帶傘！')						# 如果 'anser == 有' , 為 False
+elif anser == '沒有' :							# 判斷 'anser '
 	print('出門不必帶傘！')
 elif anser == '不知道' or anser == '不確定' :
 	print('出門前先確認有沒有下雨')
 else :
 	print('請認真回答問題！！')
-	
